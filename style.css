@@ -51,7 +51,6 @@
     color: #FFFFFF;
     padding: 16px 12px;
     background-image: linear-gradient(to right, #00d2ff 0%, #3a7bd5 100%, #00d2ff 50%);
-
     border-radius: 5px;
 }
 .btn-class{
@@ -152,4 +151,43 @@
 }
 #card3{
     background: rgba(255, 244, 214, 1);
+}
+.depends-donation{
+    display: flex;
+    justify-content: space-evenly;
+}
+.half-box{
+    width: 50%;
+}
+.depends-img img{
+    width: 450px;
+    height: 450px;
+    margin-left: 10%;
+}
+.depends-content{
+    width: 450px;
+    height: 450px;
+    margin-left: 20%;
+    margin-top: 5%;
+}
+
+.depends-content h2{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 54px;
+}
+.depends-content p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+}
+.depends-button{
+    font-size: 20px;
+    margin-top: -180px;
+    margin-right: 180px;
+    margin-left: 90px;
 }
