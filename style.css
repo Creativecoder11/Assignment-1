@@ -188,6 +188,7 @@
 .depends-donation{
     display: flex;
     justify-content: space-evenly;
+    margin: 100px 0px;
 }
 .half-box{
     width: 50%;
@@ -279,7 +280,7 @@
 }
 /* help part */
 .help-report{
-    margin: 5% 0;
+    margin: 10% 0;
 }
 .help-report h2{
     font-family: 'Inter';
