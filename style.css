@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lobster&family=Montserrat:wght@400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+--root{
+    font-family: 'Inter', sans-serif;
+    font-family: 'Lobster', cursive;
+    font-family: 'Montserrat', sans-serif;
+}
+.header{
+    background-image: url(./img/donation7.jpg);
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.header-container{
+    background: linear-gradient(360deg, #121212 0%, rgba(18, 18, 18, 0) 100%);
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+.header-content{
+    width: 100%;
+}
+.header h1{
+    color: #ffff;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 79px;
+    text-align: center;
+}
+.header p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.btn{
+    text-decoration: none;
+    color: #FFFFFF;
+    padding: 16px 12px;
+    background-image: linear-gradient(to right, #00d2ff 0%, #3a7bd5 100%, #00d2ff 50%);
+
+    border-radius: 5px;
+}
+.btn-class{
+    margin-top: 32px;
+}
+.donate-container{
+    margin: 100px 0;
+    padding: 80px 0;
+}
+.donate-container h2{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 54px;
+    text-align: center;
+    margin: 24px 0;
+}
+.donate-container p{
+    text-align: center;
+}
+.donate-card{
+    margin: 64px 0;
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+}
+.donate-card div{
+    padding: 48px;
+    background: #FAFAFA;
+    border-radius: 5px;
+}
+.donate-card h3{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+    text-align: center;
+    color: #707070;
+}
+#selected-card{
+    background: #00d0ff3b;
+    color: #FF5959;
+    border: 2px solid #3a7bd5;
+}
+.donate-input{
+    text-align: center;
+}
+.donate-input input{
+    width: 50%;
+    text-align: center;
+    outline: none;
+    border: none;
+    color: #B3B3B3;
+    padding: 8px 0;
+    border-bottom: 1px solid #B3B3B3;
+}
+.donate-plan{
+    margin: 100px 0;
+}
+.donate-plan h2{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 54px;
+    text-align: center;
+    margin: 24px 0;
+}
+.donate-plan p{
+    text-align: center;
+}
+.plan-card{
+    display: flex;
+    font-family: 'Inter';
+    justify-content: center;
+    gap: 16px;
+    margin-top: 64px;
+}
+.plan-card p{
+    text-align: left;
+}
+.plan-card img{
+    height: 53px;
+    width: 53px;
+}
+
+.plan-card div{
+    padding: 48px 16px;
+    border-radius: 5px;
+}
+#card1{
+    background: rgba(79, 157, 166, 0.1);
+}
+#card2{
+    background: rgba(255, 89, 89, 0.1);
+}
+#card3{
+    background: rgba(255, 244, 214, 1);
+}
